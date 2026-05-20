@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>NSMicrophoneUsageDescription</key>
+  <string>Visp 需要访问麦克风来录制语音并完成离线翻译。</string>
+  <key>NSSpeechRecognitionUsageDescription</key>
+  <string>Visp 需要使用系统语音识别将录音转换成文字后再进行翻译。</string>
+</dict>
+</plist>
