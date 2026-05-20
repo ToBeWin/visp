@@ -1,6 +1,6 @@
 # Visp
 
-Visp is a lightweight desktop translation assistant built with Tauri, React, and Rust.
+Visp is a lightweight desktop translation assistant.
 
 The goal is to make translation feel like a system-level workflow: trigger a shortcut, speak or select text, and get the translated result back into the app you are already using.
 
@@ -34,7 +34,7 @@ What is not finished yet:
 
 macOS is the main supported platform at the moment.
 
-Voice recognition uses Apple's Speech framework. The app also needs microphone permission. If Visp does not appear under `System Settings -> Privacy & Security -> Speech Recognition`, return to the Visp window and trigger the voice permission flow from the app first.
+Voice recognition uses the macOS Speech framework. The app also needs microphone permission. If Visp does not appear under `System Settings -> Privacy & Security -> Speech Recognition`, return to the Visp window and trigger the voice permission flow from the app first.
 
 ### Windows and Linux
 
@@ -75,7 +75,7 @@ Use the in-app runtime diagnostics to see the exact model directory for your mac
 
 ### Requirements
 
-- Node.js 20+
+- Node 20+
 - Rust stable
 - Platform-specific Tauri dependencies
 - macOS with Xcode command line tools for the macOS build
@@ -137,4 +137,3 @@ On macOS, the build script re-signs the generated app bundle with the configured
 ## License
 
 No license file has been added yet. Treat the project as not licensed for reuse until a license is explicitly added.
-
