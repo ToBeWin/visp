@@ -1,7 +1,7 @@
 {
   "name": "visp",
   "version": "0.1.0",
-  "description": "Visp - 全离线、零成本、极简、跨平台的 AI 翻译助手",
+  "description": "Visp - a lightweight desktop translation assistant for macOS-first workflows",
   "type": "module",
   "scripts": {
     "dev": "vite",

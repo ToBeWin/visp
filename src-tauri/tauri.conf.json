@@ -42,7 +42,7 @@
     "copyright": "",
     "category": "Productivity",
     "shortDescription": "Offline AI Translation Assistant",
-    "longDescription": "Visp is an offline, zero-cost, minimalist, cross-platform AI translation assistant designed for developers and office workers."
+    "longDescription": "Visp is a lightweight desktop translation assistant focused on macOS-first voice and text translation workflows."
   },
   "plugins": {
     "shell": {
